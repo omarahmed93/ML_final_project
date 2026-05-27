@@ -10,4 +10,5 @@ catboost_info/
 *.pptx
 *.docx
 amount_pipeline.joblib
+amount_pipeline_XGB.joblib
 new.py

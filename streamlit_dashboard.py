@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(page_title="Amazon Sales Dashboard", layout="wide")
 
 DATA_PATH = "cleaned_amazon_sales.csv"
-MODEL_PATH = "amount_pipeline_sklearn.joblib"
+MODEL_PATH = "amount_pipeline_XGB.joblib"
 
 STATUS_MAP = {
     "Shipped": "Shipped",
